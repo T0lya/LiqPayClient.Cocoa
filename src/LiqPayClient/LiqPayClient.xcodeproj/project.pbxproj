@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		F200CA441298487300FEE56C /* Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = F200CA421298487300FEE56C /* Categories.h */; };
+		F200CA451298487300FEE56C /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = F200CA431298487300FEE56C /* Categories.m */; };
+		F2012C1D12875B4B00A0490B /* Operation.h in Headers */ = {isa = PBXBuildFile; fileRef = F2012C1B12875B4B00A0490B /* Operation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2012C1E12875B4B00A0490B /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2012C1C12875B4B00A0490B /* Operation.m */; };
+		F2012CB612889B5300A0490B /* Response.h in Headers */ = {isa = PBXBuildFile; fileRef = F2012CB412889B5300A0490B /* Response.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2012CB712889B5300A0490B /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = F2012CB512889B5300A0490B /* Response.m */; };
+		F2012D151288AB9300A0490B /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = F2012D131288AB9300A0490B /* Request.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2012D161288AB9300A0490B /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = F2012D141288AB9300A0490B /* Request.m */; };
+		F206A4011289FBDE009946C3 /* LiqPayClient.h in Headers */ = {isa = PBXBuildFile; fileRef = F206A3FF1289FBDE009946C3 /* LiqPayClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F206A4021289FBDE009946C3 /* LiqPayClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F206A4001289FBDE009946C3 /* LiqPayClient.m */; };
+		F255133B129C73C100370AD1 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C7CBF91280B35D00F65C3B /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F255133C129C73C100370AD1 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C7CBFA1280B35D00F65C3B /* Constants.m */; };
+		F255133D129C73C100370AD1 /* Classes.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C7CC0F1280B52400F65C3B /* Classes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F255133E129C73C100370AD1 /* Classes.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C7CC101280B52400F65C3B /* Classes.m */; };
+		F255133F129C73C100370AD1 /* Operation.h in Headers */ = {isa = PBXBuildFile; fileRef = F2012C1B12875B4B00A0490B /* Operation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2551340129C73C100370AD1 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2012C1C12875B4B00A0490B /* Operation.m */; };
+		F2551341129C73C100370AD1 /* Response.h in Headers */ = {isa = PBXBuildFile; fileRef = F2012CB412889B5300A0490B /* Response.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2551342129C73C100370AD1 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = F2012CB512889B5300A0490B /* Response.m */; };
+		F2551343129C73C100370AD1 /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = F2012D131288AB9300A0490B /* Request.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2551344129C73C100370AD1 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = F2012D141288AB9300A0490B /* Request.m */; };
+		F2551345129C73C100370AD1 /* LiqPayClient.h in Headers */ = {isa = PBXBuildFile; fileRef = F206A3FF1289FBDE009946C3 /* LiqPayClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2551346129C73C100370AD1 /* LiqPayClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F206A4001289FBDE009946C3 /* LiqPayClient.m */; };
+		F2551347129C73C100370AD1 /* ClickNBuy.h in Headers */ = {isa = PBXBuildFile; fileRef = F282086E12907CB8007A6368 /* ClickNBuy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2551348129C73C100370AD1 /* ClickNBuy.m in Sources */ = {isa = PBXBuildFile; fileRef = F282086F12907CB8007A6368 /* ClickNBuy.m */; };
+		F2551349129C73C100370AD1 /* LiqPayConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F29404D01294774A00E214E3 /* LiqPayConstants.h */; };
+		F255134A129C73C100370AD1 /* LiqPayConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F294077A1295B60000E214E3 /* LiqPayConstants.m */; };
+		F255134B129C73C100370AD1 /* Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = F200CA421298487300FEE56C /* Categories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F255134C129C73C100370AD1 /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = F200CA431298487300FEE56C /* Categories.m */; };
+		F282087012907CB8007A6368 /* ClickNBuy.h in Headers */ = {isa = PBXBuildFile; fileRef = F282086E12907CB8007A6368 /* ClickNBuy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F282087112907CB8007A6368 /* ClickNBuy.m in Sources */ = {isa = PBXBuildFile; fileRef = F282086F12907CB8007A6368 /* ClickNBuy.m */; };
+		F29404D11294774A00E214E3 /* LiqPayConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F29404D01294774A00E214E3 /* LiqPayConstants.h */; };
+		F294077B1295B60000E214E3 /* LiqPayConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F294077A1295B60000E214E3 /* LiqPayConstants.m */; };
+		F2C7CBFB1280B35D00F65C3B /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C7CBF91280B35D00F65C3B /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2C7CBFC1280B35D00F65C3B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C7CBFA1280B35D00F65C3B /* Constants.m */; };
+		F2C7CC111280B52400F65C3B /* Classes.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C7CC0F1280B52400F65C3B /* Classes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2C7CC121280B52400F65C3B /* Classes.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C7CC101280B52400F65C3B /* Classes.m */; };
+		F2E96CB912A9A235007E871E /* Parsers.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E96CB712A9A235007E871E /* Parsers.h */; };
+		F2E96CBA12A9A235007E871E /* Parsers.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E96CB812A9A235007E871E /* Parsers.m */; };
+		F2E96CBB12A9A235007E871E /* Parsers.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E96CB712A9A235007E871E /* Parsers.h */; };
+		F2E96CBC12A9A235007E871E /* Parsers.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E96CB812A9A235007E871E /* Parsers.m */; };
+		F2E96D5412A9ADFA007E871E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E96D5312A9ADFA007E871E /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* LiqPayClient_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiqPayClient_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* LiqPayClient */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = LiqPayClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		F200CA421298487300FEE56C /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		F200CA431298487300FEE56C /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categories.m; sourceTree = "<group>"; };
+		F2012C1B12875B4B00A0490B /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		F2012C1C12875B4B00A0490B /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		F2012CB412889B5300A0490B /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		F2012CB512889B5300A0490B /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		F2012D131288AB9300A0490B /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		F2012D141288AB9300A0490B /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		F206A3FF1289FBDE009946C3 /* LiqPayClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiqPayClient.h; sourceTree = "<group>"; };
+		F206A4001289FBDE009946C3 /* LiqPayClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiqPayClient.m; sourceTree = "<group>"; };
+		F2551337129C734C00370AD1 /* libLiqPayClient-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libLiqPayClient-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F282086E12907CB8007A6368 /* ClickNBuy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickNBuy.h; sourceTree = "<group>"; };
+		F282086F12907CB8007A6368 /* ClickNBuy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickNBuy.m; sourceTree = "<group>"; };
+		F29404D01294774A00E214E3 /* LiqPayConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiqPayConstants.h; sourceTree = "<group>"; };
+		F294077A1295B60000E214E3 /* LiqPayConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiqPayConstants.m; sourceTree = "<group>"; };
+		F2C7CBF91280B35D00F65C3B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F2C7CBFA1280B35D00F65C3B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		F2C7CC0F1280B52400F65C3B /* Classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classes.h; sourceTree = "<group>"; };
+		F2C7CC101280B52400F65C3B /* Classes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Classes.m; sourceTree = "<group>"; };
+		F2E96CB712A9A235007E871E /* Parsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parsers.h; sourceTree = "<group>"; };
+		F2E96CB812A9A235007E871E /* Parsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parsers.m; sourceTree = "<group>"; };
+		F2E96D5312A9ADFA007E871E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				F2E96D5412A9ADFA007E871E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2551335129C734C00370AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* LiqPayClient */,
+				F2551337129C734C00370AD1 /* libLiqPayClient-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* LiqPayClient */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = LiqPayClient;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2C7CBF91280B35D00F65C3B /* Constants.h */,
+				F2C7CBFA1280B35D00F65C3B /* Constants.m */,
+				F2C7CC0F1280B52400F65C3B /* Classes.h */,
+				F2C7CC101280B52400F65C3B /* Classes.m */,
+				F2012C1B12875B4B00A0490B /* Operation.h */,
+				F2012C1C12875B4B00A0490B /* Operation.m */,
+				F2012CB412889B5300A0490B /* Response.h */,
+				F2012CB512889B5300A0490B /* Response.m */,
+				F2012D131288AB9300A0490B /* Request.h */,
+				F2012D141288AB9300A0490B /* Request.m */,
+				F206A3FF1289FBDE009946C3 /* LiqPayClient.h */,
+				F206A4001289FBDE009946C3 /* LiqPayClient.m */,
+				F282086E12907CB8007A6368 /* ClickNBuy.h */,
+				F282086F12907CB8007A6368 /* ClickNBuy.m */,
+				F29404D01294774A00E214E3 /* LiqPayConstants.h */,
+				F294077A1295B60000E214E3 /* LiqPayConstants.m */,
+				F200CA421298487300FEE56C /* Categories.h */,
+				F200CA431298487300FEE56C /* Categories.m */,
+				F2E96CB712A9A235007E871E /* Parsers.h */,
+				F2E96CB812A9A235007E871E /* Parsers.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2E96D5312A9ADFA007E871E /* Foundation.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* LiqPayClient_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C7CBFB1280B35D00F65C3B /* Constants.h in Headers */,
+				F2C7CC111280B52400F65C3B /* Classes.h in Headers */,
+				F2012C1D12875B4B00A0490B /* Operation.h in Headers */,
+				F2012CB612889B5300A0490B /* Response.h in Headers */,
+				F2012D151288AB9300A0490B /* Request.h in Headers */,
+				F206A4011289FBDE009946C3 /* LiqPayClient.h in Headers */,
+				F282087012907CB8007A6368 /* ClickNBuy.h in Headers */,
+				F29404D11294774A00E214E3 /* LiqPayConstants.h in Headers */,
+				F200CA441298487300FEE56C /* Categories.h in Headers */,
+				F2E96CBB12A9A235007E871E /* Parsers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2551333129C734C00370AD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F255133B129C73C100370AD1 /* Constants.h in Headers */,
+				F255133D129C73C100370AD1 /* Classes.h in Headers */,
+				F255133F129C73C100370AD1 /* Operation.h in Headers */,
+				F2551341129C73C100370AD1 /* Response.h in Headers */,
+				F2551343129C73C100370AD1 /* Request.h in Headers */,
+				F2551345129C73C100370AD1 /* LiqPayClient.h in Headers */,
+				F2551347129C73C100370AD1 /* ClickNBuy.h in Headers */,
+				F2551349129C73C100370AD1 /* LiqPayConstants.h in Headers */,
+				F255134B129C73C100370AD1 /* Categories.h in Headers */,
+				F2E96CB912A9A235007E871E /* Parsers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* LiqPayClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "LiqPayClient" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiqPayClient;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = LiqPayClient;
+			productReference = 8DC2EF5B0486A6940098B216 /* LiqPayClient */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2551336129C734C00370AD1 /* LiqPayClient-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F255133A129C737900370AD1 /* Build configuration list for PBXNativeTarget "LiqPayClient-iOS" */;
+			buildPhases = (
+				F2551333129C734C00370AD1 /* Headers */,
+				F2551334129C734C00370AD1 /* Sources */,
+				F2551335129C734C00370AD1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LiqPayClient-iOS";
+			productName = iOSLiqPayClient;
+			productReference = F2551337129C734C00370AD1 /* libLiqPayClient-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "LiqPayClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* LiqPayClient */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* LiqPayClient */,
+				F2551336129C734C00370AD1 /* LiqPayClient-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C7CBFC1280B35D00F65C3B /* Constants.m in Sources */,
+				F2C7CC121280B52400F65C3B /* Classes.m in Sources */,
+				F2012C1E12875B4B00A0490B /* Operation.m in Sources */,
+				F2012CB712889B5300A0490B /* Response.m in Sources */,
+				F2012D161288AB9300A0490B /* Request.m in Sources */,
+				F206A4021289FBDE009946C3 /* LiqPayClient.m in Sources */,
+				F282087112907CB8007A6368 /* ClickNBuy.m in Sources */,
+				F294077B1295B60000E214E3 /* LiqPayConstants.m in Sources */,
+				F200CA451298487300FEE56C /* Categories.m in Sources */,
+				F2E96CBC12A9A235007E871E /* Parsers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2551334129C734C00370AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F255133C129C73C100370AD1 /* Constants.m in Sources */,
+				F255133E129C73C100370AD1 /* Classes.m in Sources */,
+				F2551340129C73C100370AD1 /* Operation.m in Sources */,
+				F2551342129C73C100370AD1 /* Response.m in Sources */,
+				F2551344129C73C100370AD1 /* Request.m in Sources */,
+				F2551346129C73C100370AD1 /* LiqPayClient.m in Sources */,
+				F2551348129C73C100370AD1 /* ClickNBuy.m in Sources */,
+				F255134A129C73C100370AD1 /* LiqPayConstants.m in Sources */,
+				F255134C129C73C100370AD1 /* Categories.m in Sources */,
+				F2E96CBA12A9A235007E871E /* Parsers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiqPayClient_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = LiqPayClient;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiqPayClient_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = LiqPayClient;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		F2551338129C734D00370AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = "LiqPayClient-iOS";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2551339129C734D00370AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "LiqPayClient-iOS";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "LiqPayClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "LiqPayClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F255133A129C737900370AD1 /* Build configuration list for PBXNativeTarget "LiqPayClient-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2551338129C734D00370AD1 /* Debug */,
+				F2551339129C734D00370AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
